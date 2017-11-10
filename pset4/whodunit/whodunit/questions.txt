@@ -1,0 +1,12 @@
+1.  stdint.h is a header file to standarize integer types across different environments and make integers of custom sizes.
+2. These are integer types with a specific size and range. Usin a normal int gives no garauntee about how many bits an int is and is dependant on the compiler.
+3.  1, 4, 4, and 2.
+4.  BM
+5.  bfSize is the total number of bytes in the file while biSize is number of bytes in info header
+6.  If biHeight is positive, the bitmap is a bottom-up DIB and its origin is the lower-left corner. If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner.
+7.  biBitCount
+8.  If it cannot open the file for any reason
+9.  That argument specifies how many elements to read and it's always reading only one struct.
+10. 3
+11. moves to a specific location in a file
+12. an integer constant that when used as argument to fseek or fseeko, specifies thath the offset provided is relative to the current file position
